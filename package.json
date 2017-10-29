@@ -25,12 +25,14 @@
     "url": "https://github.com/coderbyheart/jest-expect-toBeWithin/issues"
   },
   "homepage": "https://github.com/coderbyheart/jest-expect-toBeWithin#readme",
+  "dependencies": {
+    "jest": "^21.2.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^4.2.2",
     "@commitlint/config-angular": "^4.2.1",
     "@types/jest": "^21.1.5",
     "husky": "^0.14.3",
-    "jest": "^21.2.1",
     "ts-jest": "^21.1.4",
     "tslint": "^5.8.0",
     "typescript": "^2.5.3",
