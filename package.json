@@ -4,7 +4,7 @@
   "description": "This adds the .toBeWithin(number, number) to expect.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --colors",
     "lint": "tslint --project ./tsconfig.json",
     "precommit": "npm run lint && npm test",
     "commitmsg": "commitlint -e",
