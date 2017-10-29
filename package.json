@@ -33,10 +33,11 @@
     "@commitlint/config-angular": "^4.2.1",
     "@types/jest": "^21.1.5",
     "husky": "^0.14.3",
+    "semantic-release": "^8.2.0",
     "ts-jest": "^21.1.4",
     "tslint": "^5.8.0",
-    "typescript": "^2.5.3",
-    "semantic-release": "^8.2.0"
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.5.3"
   },
   "files": [
     "dist"

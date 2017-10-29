@@ -3,13 +3,13 @@ import {
     matcherHint,
     printReceived,
     printExpected
-} from 'jest-matcher-utils';
+} from 'jest-matcher-utils'
 
 export const toBeWithin = (actual: number, lowerBound: number, upperBound: number) => {
-    ensureNumbers(actual, lowerBound, '.toBeWithin');
-    ensureNumbers(actual, upperBound, '.toBeWithin');
-    const pass = actual >= lowerBound && actual <= upperBound;
-    const message = pass
+  ensureNumbers(actual, lowerBound, '.toBeWithin')
+  ensureNumbers(actual, upperBound, '.toBeWithin')
+  const pass = actual >= lowerBound && actual <= upperBound
+  const message = pass
         ? () =>
             matcherHint('.not.toBeWithin') +
             '\n\n' +
@@ -25,6 +25,6 @@ export const toBeWithin = (actual: number, lowerBound: number, upperBound: numbe
             `  ${printExpected(lowerBound)} ` +
             `>= n >= ${printExpected(upperBound)}\n` +
             `Received:\n` +
-            `  ${printReceived(actual)}`;
-    return {message, pass};
-};
+            `  ${printReceived(actual)}`
+  return { message, pass }
+}
