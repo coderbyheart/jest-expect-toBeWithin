@@ -1,6 +1,6 @@
 {
   "name": "@coderbyheart/jest-expect-tobewithin",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "This adds the .toBeWithin(number, number) to expect.",
   "main": "dist/index.js",
   "scripts": {
@@ -8,11 +8,12 @@
     "lint": "tslint --project ./tsconfig.json",
     "precommit": "npm run lint && npm test",
     "commitmsg": "commitlint -e",
-    "dist": "tsc"
+    "dist": "tsc",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coderbyheart/jest-expect-toBeWithin.git"
+    "url": "https://github.com/coderbyheart/jest-expect-toBeWithin.git"
   },
   "keywords": [
     "jest",
@@ -32,7 +33,8 @@
     "jest": "^21.2.1",
     "ts-jest": "^21.1.4",
     "tslint": "^5.8.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.5.3",
+    "semantic-release": "^8.2.0"
   },
   "files": [
     "dist"
