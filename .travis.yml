@@ -1,0 +1,24 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+before_install:
+  - npm install -g npm@5
+install:
+  - npm install
+  - npm prune
+script:
+  - npm run lint
+  - npm run test
+  - npm run dist
+after_success:
+  - npm run semantic-release
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+matrix:
+  include:
+    - node_js: 'node'
+    - node_js: '6'

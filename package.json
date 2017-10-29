@@ -1,0 +1,50 @@
+{
+  "name": "@coderbyheart/jest-expect-tobewithin",
+  "version": "1.0.0",
+  "description": "This adds the .toBeWithin(number, number) to expect.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint --project ./tsconfig.json",
+    "precommit": "npm run lint && npm test",
+    "commitmsg": "commitlint -e",
+    "dist": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderbyheart/jest-expect-toBeWithin.git"
+  },
+  "keywords": [
+    "jest",
+    "expect"
+  ],
+  "author": "Markus Tacker | https://coderbyheart.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderbyheart/jest-expect-toBeWithin/issues"
+  },
+  "homepage": "https://github.com/coderbyheart/jest-expect-toBeWithin#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^4.2.2",
+    "@commitlint/config-angular": "^4.2.1",
+    "@types/jest": "^21.1.5",
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.1.4",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.ts?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.ts$"
+  }
+}

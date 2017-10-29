@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "strictNullChecks": false,
+        "removeComments": false,
+        "noUnusedParameters": false,
+        "noUnusedLocals": true,
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "dist/",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "types": [
+            "jest"
+        ],
+        "lib": [
+            "es2015"
+        ],
+        "alwaysStrict": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src/**/*"
+    ]
+}

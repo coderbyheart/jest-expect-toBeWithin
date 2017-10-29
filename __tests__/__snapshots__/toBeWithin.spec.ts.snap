@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.toBeWithin() equal numbers: [-Infinity, -Infinity, -Infinity] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m-Infinity[39m >= n >= [32m-Infinity[39m
+Received:
+  [31m-Infinity[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [-Infinity, -Infinity, -Infinity] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m-Infinity[39m >= n >= [32m-Infinity[39m
+Received:
+  [31m-Infinity[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [1, 1, 1] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m1[39m >= n >= [32m1[39m
+Received:
+  [31m1[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [1, 1, 1] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m1[39m >= n >= [32m1[39m
+Received:
+  [31m1[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [1.7976931348623157e+308, 1.7976931348623157e+308, 1.7976931348623157e+308] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m1.7976931348623157e+308[39m >= n >= [32m1.7976931348623157e+308[39m
+Received:
+  [31m1.7976931348623157e+308[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [1.7976931348623157e+308, 1.7976931348623157e+308, 1.7976931348623157e+308] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m1.7976931348623157e+308[39m >= n >= [32m1.7976931348623157e+308[39m
+Received:
+  [31m1.7976931348623157e+308[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [5e-324, 5e-324, 5e-324] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m5e-324[39m >= n >= [32m5e-324[39m
+Received:
+  [31m5e-324[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [5e-324, 5e-324, 5e-324] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m5e-324[39m >= n >= [32m5e-324[39m
+Received:
+  [31m5e-324[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [Infinity, Infinity, Infinity] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32mInfinity[39m >= n >= [32mInfinity[39m
+Received:
+  [31mInfinity[39m"
+`;
+
+exports[`.toBeWithin() equal numbers: [Infinity, Infinity, Infinity] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32mInfinity[39m >= n >= [32mInfinity[39m
+Received:
+  [31mInfinity[39m"
+`;
+
+exports[`.toBeWithin() throws: [-Infinity, 1, Infinity] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m-Infinity[39m >= n >= [32mInfinity[39m
+Received:
+  [31m1[39m"
+`;
+
+exports[`.toBeWithin() throws: [-Infinity, 1, Infinity] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value to be within:
+  [32m-Infinity[39m >= n >= [32m1[39m
+Received:
+  [31mInfinity[39m"
+`;
+
+exports[`.toBeWithin() throws: [0.1, 0.19, 0.2] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m0.1[39m >= n >= [32m0.2[39m
+Received:
+  [31m0.19[39m"
+`;
+
+exports[`.toBeWithin() throws: [0.1, 0.19, 0.2] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value to be within:
+  [32m0.1[39m >= n >= [32m0.19[39m
+Received:
+  [31m0.2[39m"
+`;
+
+exports[`.toBeWithin() throws: [1, 2, 3] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m1[39m >= n >= [32m3[39m
+Received:
+  [31m2[39m"
+`;
+
+exports[`.toBeWithin() throws: [1, 2, 3] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value to be within:
+  [32m1[39m >= n >= [32m2[39m
+Received:
+  [31m3[39m"
+`;
+
+exports[`.toBeWithin() throws: [3, 7, 15] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m3[39m >= n >= [32m15[39m
+Received:
+  [31m7[39m"
+`;
+
+exports[`.toBeWithin() throws: [3, 7, 15] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value to be within:
+  [32m3[39m >= n >= [32m7[39m
+Received:
+  [31m15[39m"
+`;
+
+exports[`.toBeWithin() throws: [5e-324, 1, 1.7976931348623157e+308] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m5e-324[39m >= n >= [32m1.7976931348623157e+308[39m
+Received:
+  [31m1[39m"
+`;
+
+exports[`.toBeWithin() throws: [5e-324, 1, 1.7976931348623157e+308] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value to be within:
+  [32m5e-324[39m >= n >= [32m1[39m
+Received:
+  [31m1.7976931348623157e+308[39m"
+`;
+
+exports[`.toBeWithin() throws: [9, 17, 18] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m9[39m >= n >= [32m18[39m
+Received:
+  [31m17[39m"
+`;
+
+exports[`.toBeWithin() throws: [9, 17, 18] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value to be within:
+  [32m9[39m >= n >= [32m17[39m
+Received:
+  [31m18[39m"
+`;
+
+exports[`.toBeWithin() throws: [17, 33, 34] 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value not within:
+  [32m17[39m >= n >= [32m34[39m
+Received:
+  [31m33[39m"
+`;
+
+exports[`.toBeWithin() throws: [17, 33, 34] 2`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toBeWithin([22m[32mexpected[39m[2m)[22m
+
+Expected value to be within:
+  [32m17[39m >= n >= [32m33[39m
+Received:
+  [31m34[39m"
+`;
