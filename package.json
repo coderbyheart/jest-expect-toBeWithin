@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/coderbyheart/jest-expect-toBeWithin#readme",
   "dependencies": {
-    "jest": "^21.2.1"
+    "jest": "^22.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^5.2.0",
